@@ -1,0 +1,100 @@
+body {
+  background-color: #f6f6f6;
+  font-family: Helvetica, sans-serif;
+}
+
+.mobile-device {
+  width: 375px;
+  height: 560px;
+  border: 1px solid #CCC;
+  margin: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.mobile-device #app h1 {
+  text-align: center;
+  width: 100%;
+  background-color: #07f4ec;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mobile-device #app form {
+  width: 90%;
+  margin: 20px auto;
+}
+.mobile-device #app form input {
+  width: 302px;
+  height: 30px;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  float: left;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+.mobile-device #app form button {
+  width: 30px;
+  height: 30px;
+  background-color: #ff2158;
+  color: #FFF;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.mobile-device #app ul.itemList {
+  width: 90%;
+  margin: 10px auto;
+  padding: 0;
+}
+.mobile-device #app ul.itemList .item {
+  height: 24px;
+  padding: 10px;
+  clear: both;
+  border-radius: 5px;
+}
+.mobile-device #app ul.itemList .item .circle {
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  float: left;
+  padding: 0;
+  transition: all 500ms;
+  border: 4px solid #ff2158;
+}
+.mobile-device #app ul.itemList .item .checked {
+  border: 4px solid #07f4ec;
+}
+.mobile-device #app ul.itemList .item .not-checked {
+  border: 4px solid #ff2158;
+}
+.mobile-device #app ul.itemList .item h2 {
+  float: left;
+  margin: 3px 0 0 10px;
+  font-size: 18px;
+  height: 20px;
+}
+.mobile-device #app ul.itemList .item button {
+  float: right;
+  border: none;
+  margin-right: 7px;
+  background: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0;
+  line-height: 17px;
+}
+.mobile-device #app ul.itemList .item button:hover {
+  color: #ff2158;
+}
+.mobile-device #app ul.itemList .item:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+
+span#addButton:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #000;
+  margin-left: 4px;
+}
